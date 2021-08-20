@@ -3,6 +3,6 @@ package com.softserve.edu;
 public class Example {
     
     public static void main(String[] args) {
-        System.out.println("Hello Dev");
+        System.out.println("Hello World");
     }
 }
