@@ -18,3 +18,5 @@
 - switch to new branch **git checkout NAME**
 - open project in Idea/Eclipse;
 - write new code;
+
+# - NiceOne - Kirill
