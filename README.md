@@ -1,5 +1,7 @@
 # ta202108
 
+--------------------------------------------------Viacheslav Kuzenko 
+
 > This is repository of ta202108 group.
 
 ### List of branches
