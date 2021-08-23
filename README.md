@@ -1,4 +1,4 @@
-- vitalii-yaryza - Vitalii
+- vitalii-yaryza - Vitalii 
 # ta202108
 
 > This is repository of ta202108 group.
