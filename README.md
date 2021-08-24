@@ -6,6 +6,7 @@
 
 - main - tempate for new branches;
 - dev - examles from trainings;
+- Lili - Liliia Matiushkova;
 
 ### Instruction. Create new branch
 
