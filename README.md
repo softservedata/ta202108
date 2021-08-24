@@ -6,6 +6,7 @@
 
 - main - tempate for new branches;
 - dev - examles from trainings;
+- apet0825 - Anastasiia Pietina;
 
 ### Instruction. Create new branch
 
