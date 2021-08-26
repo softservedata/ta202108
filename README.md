@@ -6,6 +6,7 @@
 
 - main - tempate for new branches;
 - dev - examles from trainings;
+- Stan_K_main - _Stanislav_
 
 ### Instruction. Create new branch
 
@@ -18,5 +19,3 @@
 - switch to new branch **git checkout NAME**
 - open project in Idea/Eclipse;
 - write new code;
-  
-**Stan_K_main** - _Stanislav_
