@@ -10,9 +10,9 @@ public class Example {
         int[] intArray = new int[3];
         for (int i = 0; i < 3; i++) {
             try {
-            System.out.println("Enter integer: ");
-            int myInt = sc.nextInt();
-            intArray[i] = myInt;
+                System.out.println("Enter integer: ");
+                int myInt = sc.nextInt();
+                intArray[i] = myInt;
             } catch (InputMismatchException e) {
                 System.out.println("Your input is invalid, please try again");
                 i--;
