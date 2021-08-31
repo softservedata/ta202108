@@ -5,17 +5,17 @@ public class AppProduct {
     public static void main (String[] args) {
 
         Product[] products = new Product[5];
-        products[0] = new Product("apple", 20.25);
-        products[1] = new Product("apple", 20);
+        products[0] = new Product("apple");
+        products[1] = new Product("apple");
         products[2] = new Product("apple", 20.25);
         products[3] = new Product("appl", 20.25);
-        products[4] = new Product("apple", 20);
+        products[4] = new Product("apple", 20.25);
 
         for (int i=0; i<5; i++){
             for (int j=i; j<5; j++) {
                 if (i!=j){
                          if (products[i].equals(products[j])) {
-                            System.out.println("Product" + (i+1) + " == Product" + (j+1));
+                             System.out.println("Product" + (i+1) + products[i].toString() + " == Product" + (j+1) + products[j].toString());
                          } /*else {
                             System.out.println("Product" + (i+1) + " != Product" + (j+1));
                          }*/
