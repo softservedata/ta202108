@@ -6,6 +6,7 @@
 
 - main - tempate for new branches;
 - dev - examles from trainings;
+- branchYuriiTA - YuriiTA
 
 ### Instruction. Create new branch
 
