@@ -55,7 +55,7 @@ public class Product {
     /**
      *
      * @param productCompared Product
-     * @return
+     * @return boolean
      */
     public boolean equals(Product productCompared) {
         if (productCompared == this) {
