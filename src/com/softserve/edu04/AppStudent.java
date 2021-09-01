@@ -12,5 +12,6 @@ public class AppStudent {
         } else {
             System.out.println("st1 != st2");
         }
+        // Assert.assertEquals(st1, st2);
     }
 }

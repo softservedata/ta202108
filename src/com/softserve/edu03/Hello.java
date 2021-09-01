@@ -1,7 +1,7 @@
 package com.softserve.edu03;
 
 public final class Hello {
-    private static String message;
+    private static String message; // = "";
     
     static {
         message = "";
