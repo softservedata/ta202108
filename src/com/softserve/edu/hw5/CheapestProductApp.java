@@ -24,6 +24,6 @@ public class CheapestProductApp {
                 cheapestProduct = product;
             }
         }
-        System.out.println("Product with least price is: " + cheapestProduct.getName());
+        System.out.println("Product with least prce is: " + cheapestProduct.getName());
     }
 }
