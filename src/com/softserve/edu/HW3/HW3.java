@@ -1,10 +1,10 @@
-package com.softserve.edu;
+package com.softserve.edu.HW3;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Example {
+class HW3 {
 
     public static void main(String[] args) {
         Scanner keybord = new Scanner(System.in);
