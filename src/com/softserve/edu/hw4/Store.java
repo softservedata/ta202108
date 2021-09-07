@@ -3,7 +3,7 @@ package com.softserve.edu.hw4;
 import java.util.Random;
 
 public class Store {
-    public static final int AMOUNT_OF_NUMBERS = 15;
+    public static final int AMOUNT_OF_NUMBERS = 5;
     public static final Random random = new Random();
 
     public static void main(String[] args) {
