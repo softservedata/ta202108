@@ -6,6 +6,7 @@
 
 - main - tempate for new branches;
 - dev - examles from trainings;
+- osiev-dev - Aleksandr;
 
 ### Instruction. Create new branch
 
