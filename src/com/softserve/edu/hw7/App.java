@@ -22,19 +22,19 @@ public class App {
         Arrays.sort(figures, new Comparator<Object>() {
             @Override
             public int compare(Object o1, Object o2) {
-                double parameter1;
-                double parameter2;
+                double perimeter1;
+                double perimeter2;
                 if (o1 instanceof Figure) {
-                    parameter1 = ((Figure) o1).calculatePerimeter();
+                    perimeter1 = ((Figure) o1).calculatePerimeter();
                 } else {
-                    parameter1 = ((Triangle) o1).calculatePerimeter();
+                    perimeter1 = ((Triangle) o1).calculatePerimeter();
                 }
                 if (o2 instanceof Figure) {
-                    parameter2 = ((Figure) o2).calculatePerimeter();
+                    perimeter2 = ((Figure) o2).calculatePerimeter();
                 } else {
-                    parameter2 = ((Triangle) o2).calculatePerimeter();
+                    perimeter2 = ((Triangle) o2).calculatePerimeter();
                 }
-                return (int) Math.ceil(parameter1 - parameter2);
+                return (int) Math.ceil(perimeter1 - perimeter2);
             }
         });
         for (Object figure : figures) {
