@@ -12,6 +12,8 @@ public class AppProductMinPrice {
         Product[] Products;
         Product[] CheapProducts;
 
+        System.out.println("Find all cheapest products WITHOUT dynamic array");
+
         Products = configProductsArray();     //how many Products you'll need
         readProducts(Products);               //enter products
         CheapProducts = findMinProductPrice(Products);  //find the cheapest product
@@ -71,18 +73,16 @@ public class AppProductMinPrice {
         int imin = 0;
         int j = 0;
         minPriceProduct = Products[imin];
+        TempProducts[j] = minPriceProduct;
 
         for (int i=1; i<Products.length; i++) {           //find the lowest price value
-            if(minPriceProduct.getPrice() > Products[i].getPrice()) {
+            if (minPriceProduct.getPrice() > Products[i].getPrice()) {
                 imin = i;
                 minPriceProduct = Products[imin];
-            }
-        }
-
-        TempProducts[0] = minPriceProduct;
-        for (int i=1; i<Products.length; i++) {             //find all cheapest products
-            if (TempProducts[0].getPrice() == Products[i].getPrice()) {
-                if(i != imin){
+                j = 0;
+                TempProducts[j] = minPriceProduct;
+            } else {
+                if (minPriceProduct.getPrice() == Products[i].getPrice()){
                     j++;
                     TempProducts[j] = Products[i];
                 }
