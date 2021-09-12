@@ -23,5 +23,6 @@ public class App {
             if (number1 < number2) System.out.println(number3 + " " + number1 + " " + number2);
             else System.out.println(number3 + " " + number2 + " " + number1);
         }
+
     }
 }
