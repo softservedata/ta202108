@@ -20,7 +20,7 @@ public class AppMaxPerimeter {
         Figure FigureMaxPerimeter = Figures[0];
 
         for (Figure figure : Figures) {
-            if (FigureMaxPerimeter.Perimeter() < figure.Perimeter()) {
+            if (FigureMaxPerimeter.GetPerimeter() < figure.GetPerimeter()) {
                 FigureMaxPerimeter = figure;
             }
         }

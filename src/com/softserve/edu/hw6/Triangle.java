@@ -17,11 +17,11 @@ public class Triangle implements Figure{
     @Override
     public String toString() {
         System.out.println("Figure with the biggest perimeter is Triangle with sides " + sideA + ", " + sideB + " and " + sideC);
-        return  "Perimeter = " + String.format("%.2f", Perimeter());
+        return  "Perimeter = " + String.format("%.2f", GetPerimeter());
     }
 
     @Override
-    public double Perimeter() {
+    public double GetPerimeter() {
         return (sideA+sideB+sideC);
     }
 }
