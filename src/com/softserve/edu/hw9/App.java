@@ -22,8 +22,8 @@ public class App {
             if (l2.contains(tempList.get(i))) {
                 T temp = tempList.get(i);
                 result.add(temp);
-                i -= 1;
                 tempList.removeAll(List.of(temp));
+                i -= 1;
             }
         }
         return result;
