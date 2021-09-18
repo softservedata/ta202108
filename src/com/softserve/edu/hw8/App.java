@@ -4,11 +4,13 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
-        List<Integer> numbers1 = List.of(1, 2, 3, 4, 5);
+        List<Integer> numbers1 = List.of(1, 2, 3, 4, 5, 5);
         List<Integer> numbers2 = List.of(1, 2, 3, 4, 5, 5, 4, 3, 2, 1, 1, 1);
         Set<Integer> set1 = new HashSet<>(numbers1);
         Set<Integer> set2 = new HashSet<>(numbers2);
         System.out.println(set1.equals(set2));
+        // or
+        System.out.println(numbers1.containsAll(numbers2) && numbers2.containsAll(numbers1));
         //or
         System.out.println(areTwoListsEqualByTheirContent(numbers1, numbers2));
     }
