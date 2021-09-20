@@ -1,5 +1,5 @@
 package com.softserve.edu.HW6;
-
+/*
 public class Appl {
 
     public static void main(String[] args) {
@@ -27,5 +27,5 @@ public class Appl {
 }
 
 
-
+*/
 
