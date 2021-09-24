@@ -1,10 +1,14 @@
-package com.softserve.edu.hw6;
+package com.softserve.edu.hw6_and_hw7;
 
 public class Square implements Figure {
     private int storona;
 
     public Square(int a) {
         this.storona = a;
+    }
+
+    public int compareTo(Figure  figure) {
+        return Double.compare( this.getPerimetr(),figure.getPerimetr());
     }
 
     @Override

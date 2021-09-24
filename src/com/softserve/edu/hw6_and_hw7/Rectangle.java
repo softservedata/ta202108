@@ -1,4 +1,4 @@
-package com.softserve.edu.hw6;
+package com.softserve.edu.hw6_and_hw7;
 
 public class Rectangle implements Figure {
     private int a;
@@ -7,6 +7,9 @@ public class Rectangle implements Figure {
     public Rectangle(int a, int b) {
         this.a = a;
         this.b = b;
+    }
+    public int compareTo(Figure  figure) {
+        return Double.compare( this.getPerimetr(),figure.getPerimetr());
     }
 
     @Override

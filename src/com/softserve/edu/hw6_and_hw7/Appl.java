@@ -1,6 +1,6 @@
-package com.softserve.edu.hw6;
+package com.softserve.edu.hw6_and_hw7;
 
-import com.softserve.edu.hw4.Product;
+import java.util.Arrays;
 
 
 public class Appl {
@@ -27,6 +27,12 @@ public class Appl {
                 figureWithMaxPerimetr =figure;
             }
         }
+
         System.out.println(figureWithMaxPerimetr);
+        Arrays.sort(allFigures);
+
+        for (int i=0; i<allFigures.length; i++){
+            System.out.println(allFigures [i]);
+        }
     }
 }
