@@ -7,11 +7,11 @@ public class AppStr {
         System.out.println("array lenght = "+ chA.length);
         String strThird = new String(chA);
         System.out.println("strThird = " + strThird);
-        //String strFourth = new String(chA, 2, 2); // CD
-        String strFourth = new String(chA, 2, 4); // CDEF
+        String strFourth = new String(chA, 2, 2); // CD
+        //String strFourth = new String(chA, 2, 4); // CDEF
         System.out.println("strFourth = " + strFourth);
         */
-        // /*-
+        /*-
         String str = "I study Java Kava language abc";
         int n = str.indexOf("ava"); // 9
         // int n = str.lastIndexOf("ava"); // 14
@@ -23,13 +23,13 @@ public class AppStr {
         	System.out.println("n = " + n);
         }
         //
-//        String str1 = str.substring(13);     // Kava language abc
-//        System.out.println("str1 = " + str1);
-//        str1 = str1.toUpperCase();
-//        System.out.println("new str1 = " + str1);
-//        String str2 = str.substring(8, 13);
-//        System.out.println("str2 = " + str2);
-        // */
+        String str1 = str.substring(13);     // Kava language abc
+        System.out.println("str1 = " + str1);
+        str1 = str1.toUpperCase();
+        System.out.println("new str1 = " + str1);
+        String str2 = str.substring(8, 13);
+        System.out.println("str2 = " + str2);
+        */
         /*-
         String str = "\t\t   Tabulated String  \t\n\n";
         System.out.println(str);
@@ -40,7 +40,7 @@ public class AppStr {
         String str = "abracadabra abba";
         System.out.println(str);
         str = str.replace("a", "--");
-        // str = str.replaceAll("a\\b", "--"); // \b word boundary
+        //str = str.replaceAll("a\\b", "--"); // \b word boundary
         //str = str.replaceFirst("a", "--");
         //str = str.replaceFirst("b", "--");
         System.out.println(str);
@@ -76,6 +76,15 @@ public class AppStr {
         System.out.println("a2.hashCode() =  " + a2.hashCode());
         */
         /*-
+        String str = "JAVA SE-8,update.301";
+        //String str = "JAVA-SE,8";
+        System.out.println(str);
+        String[] arr = str.split("-|,|\\.| ");
+        for (String w : arr) {
+           System.out.println(w);
+         }
+        */
+        /*-
         final double PI = 3.1415926;
         String formatStr = "%S is =%6.2f\n";
         System.out.println("const PI = " + PI);
@@ -84,7 +93,7 @@ public class AppStr {
         System.out.printf(formatStr, "pi", PI);
         System.out.printf("hashcode =%h", 64);
         */
-        /*-
+        // /*-
         String s1 = new String("Hello");
         String s2 = " And Goodbye";
         String str = s1 + s2;
@@ -95,12 +104,13 @@ public class AppStr {
         sb.append(s2);
         // str = sb.toString();
         System.out.println(" sb = " + sb); // toString()
+        //sb.ensureCapacity(100);
         System.out.println(" sb.length() = " + sb.length());
-        System.out.println(" sb.capacity() = " + sb.capacity());
+        System.out.println(" sb.capacity() = " + sb.capacity()); // 21
         sb.append("12345");
         System.out.println("new sb.length() = " + sb.length());
-        System.out.println("new sb.capacity() = " + sb.capacity());
+        System.out.println("new sb.capacity() = " + sb.capacity()); // 44
         System.out.println("Reverse sb = " + sb.reverse());
-        */
+        // */
     }
 }
