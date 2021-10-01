@@ -84,7 +84,7 @@ public class AppStr {
            System.out.println(w);
          }
         */
-        /*-
+        // /*-
         final double PI = 3.1415926;
         String formatStr = "%S is =%6.2f\n";
         System.out.println("const PI = " + PI);
@@ -92,8 +92,8 @@ public class AppStr {
         System.out.println(s);
         System.out.printf(formatStr, "pi", PI);
         System.out.printf("hashcode =%h", 64);
-        */
-        // /*-
+        // */
+        /*-
         String s1 = new String("Hello");
         String s2 = " And Goodbye";
         String str = s1 + s2;
@@ -111,6 +111,6 @@ public class AppStr {
         System.out.println("new sb.length() = " + sb.length());
         System.out.println("new sb.capacity() = " + sb.capacity()); // 44
         System.out.println("Reverse sb = " + sb.reverse());
-        // */
+        */
     }
 }
