@@ -1,4 +1,4 @@
-package com.softserve.edu.hw6;
+package com.softserve.edu.hw6_hw7;
 
 public class Triangle implements Figure {
     private int a;
@@ -9,6 +9,9 @@ public class Triangle implements Figure {
         this.a = a;
         this.b = b;
         this.c = c;
+    }
+    public int compareTo(Figure  figure) {
+        return Double.compare( this.getPerimetr(),figure.getPerimetr());
     }
 
     @Override
