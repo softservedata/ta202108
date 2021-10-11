@@ -45,4 +45,5 @@ public class AppListArraysSharedContent {
 
         System.out.println("Shared elements of both lists are " + SharedContent);
     }
+
 }
